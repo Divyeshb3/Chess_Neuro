@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;700&display=swap');
+
+@theme {
+  --font-pixel: 'Press Start 2P', system-ui;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  
+  --color-bento-bg: #0f172a;
+  --color-bento-card: #1e293b;
+  --color-bento-border: #334155;
+  --color-bento-text: #f8fafc;
+  --color-bento-muted: #64748b;
+  --color-bento-accent: #38bdf8;
+  --color-bento-secondary: #6366f1;
+  
+  --color-minimal-bg: #f8fafc;
+  --color-minimal-piece-light: #ffffff;
+  --color-minimal-piece-dark: #1e293b;
+  --color-minimal-accent: #6366f1;
+
+  --color-neon-cyan: #00ffff;
+  --color-neon-magenta: #ff00ff;
+  --color-neon-yellow: #ffff00;
+}
+
+@layer base {
+  body {
+    @apply bg-bento-bg text-bento-text font-sans selection:bg-bento-accent/30;
+    margin: 0;
+    height: 100%;
+  }
+}
+
+.bento-card {
+  @apply bg-bento-card border border-bento-border rounded-2xl p-5 flex flex-col gap-4 shadow-xl transition-all duration-300;
+}
+
+.bento-card:hover {
+  @apply border-bento-muted/50;
+}
+
+.label {
+  @apply text-[10px] uppercase tracking-wider font-bold text-bento-muted mb-1;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0) }
+  20% { transform: translate(-2px, 2px) }
+  40% { transform: translate(-2px, -2px) }
+  60% { transform: translate(2px, 2px) }
+  80% { transform: translate(2px, -2px) }
+  100% { transform: translate(0) }
+}
+
+.glitch-text {
+  text-shadow: 2px 0 #ff00ff, -2px 0 #00ffff;
+  animation: glitch 0.2s infinite;
+  animation-play-state: paused;
+}
+
+.glitch-text:hover {
+  animation-play-state: running;
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%) }
+  100% { transform: translateY(100vh) }
+}
+
+.scanline {
+  width: 100%;
+  height: 2px;
+  background: rgba(0, 255, 255, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 100;
+  animation: scanline 4s linear infinite;
+}
+
+@keyframes crt-flicker {
+  0% { opacity: 0.9 }
+  100% { opacity: 1 }
+}
+
+.crt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  z-index: 99;
+  animation: crt-flicker 0.1s infinite;
+}
+
