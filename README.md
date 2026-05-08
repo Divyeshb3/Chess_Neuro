@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ♟️ Futuristic Chess Game
 
-# Run and deploy your AI Studio app
+🎮 Modern chess experience with Player vs Player & AI gameplay.
 
-This contains everything you need to run your app locally.
+## 🖼️ Preview
 
-View your app in AI Studio: https://ai.studio/apps/b8e0a672-2139-40ee-8a68-d561cacc79a1
+### 🎮 Main Menu
+![Main Menu](./Screenshot 2026-05-08 235406.png)
 
-## Run Locally
+### ♟️ Gameplay UI
+![Gameplay](./screenshots/gameplay-ui.png)
 
-**Prerequisites:**  Node.js
+### ✨ Enhanced Interface
+![Enhanced UI](./screenshots/enhanced-ui.png)
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Features
+- 🤖 Smart AI Opponent
+- 💡 Tactical Hint System
+- ↩️ Advanced Undo Feature
+- ⏱️ PvP Timer Support
+- ♟️ Complete Chess Rules
+- ✨ Futuristic Minimal UI
