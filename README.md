@@ -6,15 +6,15 @@
 
 ### 🎮 Main Menu
 
-![Main Menu](./screenshots/Screenshot 2026-05-08 235406.png)
+![Main Menu](.MainMenu.png)
 
 ### ♟️ Player vs Player Gameplay UI
 
-![PvP Gameplay](.PlayervsPlayerUI)
+![PvP Gameplay](.PlayervsPlayerUI.png)
 
 ### 🤖 Player vs AI Gameplay UI
 
-![AI Gameplay](./screenshots/ChatGPT Image May 9, 2026, 12_07_04 AM.png)
+![AI Gameplay](.PlayerVsAI.png)
 
 ## 🚀 Features
 
