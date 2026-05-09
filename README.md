@@ -10,7 +10,7 @@
 
 ### ♟️ Player vs Player Gameplay UI
 
-![PvP Gameplay](PlayervsPlayerUI.png)
+![PvP Gameplay](PlayerVsPlayer.png)
 
 ### 🤖 Player vs AI Gameplay UI
 
