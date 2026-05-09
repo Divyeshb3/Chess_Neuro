@@ -10,7 +10,7 @@
 
 ### ♟️ Player vs Player Gameplay UI
 
-![PvP Gameplay](./screenshots/ChatGPT Image May 8, 2026, 11_59_46 PM.png)
+![PvP Gameplay](.PlayervsPlayerUI)
 
 ### 🤖 Player vs AI Gameplay UI
 
