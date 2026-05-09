@@ -6,15 +6,15 @@
 
 ### 🎮 Main Menu
 
-![Main Menu](.MainMenu.png)
+![Main Menu](MainMenu.png)
 
 ### ♟️ Player vs Player Gameplay UI
 
-![PvP Gameplay](.PlayervsPlayerUI.png)
+![PvP Gameplay](PlayervsPlayerUI.png)
 
 ### 🤖 Player vs AI Gameplay UI
 
-![AI Gameplay](.PlayerVsAI.png)
+![AI Gameplay](PlayerVsAI.png)
 
 ## 🚀 Features
 
