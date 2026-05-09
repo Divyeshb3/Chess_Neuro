@@ -14,7 +14,7 @@
 
 ### 🤖 Player vs AI Gameplay UI
 
-![AI Gameplay](PlayerVsAI.png)
+![AI Gameplay](PlayerVsAl.png)
 
 ## 🚀 Features
 
